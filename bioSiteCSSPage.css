@@ -1,7 +1,204 @@
-.container {
-    text-align: center
+background {
+    background-color: #fef9f8;
 }
 
-header {
-    
+#container {
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: #0d0d0d;
+}
+
+#container h1 {
+    text-align: center;
+}
+
+#container figure {
+    align-content: center;
+}
+
+#headerimage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 350px;
+    align-items: center;
+    font-family: 'IM Fell English SC', serif;
+    padding-bottom: 3%;
+}
+
+#overlay {
+    position: absolute;
+    top: 115px;
+    left: 420px;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 40px;
+}
+
+#navoptions {
+    display: grid;
+    text-align: center;
+    padding-top: 3%;
+}
+
+#landing-page {
+    grid-column-start: 1;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    padding: 5px;
+}
+
+#landing-page img {
+    width: 350px;
+    height: 400px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+#about-page {
+    grid-column-start: 2;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;    
+    padding: 5px;
+}
+
+#about-page img {
+    width: 475px;
+    height: 400px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+#hobbies-page {
+    grid-column-start: 3;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    padding: 5px;
+}
+
+#hobbies-page img {
+    width: 350px;
+    height: 400px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+hr {
+    color: #0d0d0d;
+}
+
+#urlLinkAboutPage {
+    text-align: right;
+    align-content: end;
+    text-decoration: none;
+    color: #0d0d0d;
+    padding-top: 3%;
+    padding-right: 5%;
+}
+
+#headerAboutPage {
+    text-align: left;
+    font-family: 'IM Fell English SC', serif;
+    padding-left: 4%;
+    font-size: 40px;
+}
+
+#gridContainerAboutPage {
+    display: grid;
+    text-align: center;
+    align-content: center;
+}
+
+#gridItem1 {
+    padding: 2%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    column-fill: balance all;
+}
+
+#gridItem1 p {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 25px;
+}
+
+#gridItem2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    column-gap: 1%;
+    padding-top: 10%;
+}
+
+#gridItem2 img {
+    width: 475px;
+}
+
+#gridItem3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    column-gap: 1%;
+    padding-top: 30%;
+}
+
+#gridItem4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    column-gap: 1%;
+    padding-top: 10%;
+}
+
+#gridItem1Hobbies {
+    padding-left: 2%;
+    padding-top: 10%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    align-content: center;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 50px;
+}
+
+#gridItem2Hobbies {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#gridItem2Hobbies img {
+    width: 60%;
+    height: 85%;
+}
+
+#gridItem3Hobbies {
+    padding: 2%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#gridItem3Hobbies img {
+    width: 60%;
+    height: 85%;
+}
+
+#gridItem4Hobbies {
+    padding-right: 2%;
+    padding-top: 10%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+    align-content: center;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 50px;
 }
