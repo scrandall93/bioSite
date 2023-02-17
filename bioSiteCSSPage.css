@@ -92,6 +92,7 @@ hr {
     color: #0d0d0d;
     padding-top: 3%;
     padding-right: 5%;
+    font-family: 'IM Fell English SC', serif;
 }
 
 #headerAboutPage {
@@ -201,4 +202,11 @@ hr {
     align-content: center;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 50px;
+}
+
+footer {
+    align-items: right;
+    text-align: right;
+    font-family: 'IM Fell English SC', serif;
+    -ms-text-size-adjust: auto;
 }
