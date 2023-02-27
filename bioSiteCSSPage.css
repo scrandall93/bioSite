@@ -23,23 +23,21 @@ background {
     margin-right: auto;
     width: 75%;
     height: 350px;
-    align-items: center;
     font-family: 'IM Fell English SC', serif;
     padding-bottom: 3%;
 }
 
 #overlay {
-    position: absolute;
-    top: 115px;
-    left: 420px;
+    align-items: center;
     font-family: 'IM Fell English SC', serif;
     font-size: 40px;
 }
 
 #navoptions {
-    display: grid;
+    display: grid; 
     text-align: center;
     padding-top: 3%;
+    align-items: center;
 }
 
 #landing-page {
@@ -174,8 +172,8 @@ hr {
 }
 
 #gridItem2Hobbies img {
-    width: 60%;
-    height: 85%;
+    width: auto;
+    height: auto;
 }
 
 #gridItem3Hobbies {
@@ -187,8 +185,8 @@ hr {
 }
 
 #gridItem3Hobbies img {
-    width: 60%;
-    height: 85%;
+    width: auto;
+    height: auto;
 }
 
 #gridItem4Hobbies {
